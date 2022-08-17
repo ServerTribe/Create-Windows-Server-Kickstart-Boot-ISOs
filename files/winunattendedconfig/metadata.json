@@ -1,0 +1,5 @@
+{
+    "key": "winunattendedconfig", 
+    "name": "Win Unattended Config", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

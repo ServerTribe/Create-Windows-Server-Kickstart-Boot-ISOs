@@ -1,0 +1,10 @@
+{
+    "fileName": "Win2016_Evaluation_ISO.zip", 
+    "formatKey": "zip", 
+    "key": "win2016evaluationiso", 
+    "md5": "ee9a2db7366a35f3d5ec5f7029a1f13c", 
+    "name": "Win2016 Evaluation ISO", 
+    "remoteUri": null, 
+    "size": 6972221772, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

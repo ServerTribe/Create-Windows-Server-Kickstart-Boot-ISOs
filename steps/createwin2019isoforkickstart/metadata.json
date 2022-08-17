@@ -1,0 +1,34 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "createwin2019isoforkickstart", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "cleankickstartbuildfiles"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "deploywin2019installisoforkickstart"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "renameinstallisoforkickstart"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "deployunattendedconfigforwindowskickstart"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "deployvmwaredriversforwindowskickstart"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "createdriversisoforwindowskickstart"
+        }
+    ], 
+    "name": "Create Win2019 ISO for Kickstart", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

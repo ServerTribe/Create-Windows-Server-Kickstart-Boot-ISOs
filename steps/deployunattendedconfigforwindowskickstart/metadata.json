@@ -1,0 +1,30 @@
+{
+    "archiveKey": "winunattendedconfig", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{kickstartServer.fqn}/Drivers", 
+    "enabled": true, 
+    "key": "deployunattendedconfigforwindowskickstart", 
+    "makoFileNames": [
+        "autounattend.xml"
+    ], 
+    "makoParameters": [
+        {
+            "name": "adminUser", 
+            "parameterKey": "kickstartserverwindowsadministrator", 
+            "parameterType": "c.s.s.b.phv.WinOsCred"
+        }, 
+        {
+            "name": "subnet", 
+            "parameterKey": "kickstartserversubnet", 
+            "parameterType": "c.s.s.b.phv.Ip4Subnet"
+        }, 
+        {
+            "name": "targetServer", 
+            "parameterKey": "kickstartserver", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }
+    ], 
+    "name": "Deploy Unattended Config for Windows Kickstart", 
+    "osCredKey": "attunenodecredlinux", 
+    "serverKey": "attunenodelinux", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

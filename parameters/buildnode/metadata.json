@@ -1,6 +1,6 @@
 {
-    "key": "attunenodelinux", 
-    "name": "Attune Node - Linux", 
+    "key": "buildnode", 
+    "name": "Build Node", 
     "showInPlan": false, 
     "type": "c.s.s.b.phv.LinuxServer"
 }

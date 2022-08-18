@@ -4,8 +4,8 @@
     "enabled": true, 
     "key": "deploywin2016installisoforkickstart", 
     "name": "Deploy Win2016 Install ISO for Kickstart", 
-    "osCredKey": "attunenodecredlinux", 
-    "serverKey": "attunenodelinux", 
+    "osCredKey": "buildnodeuser", 
+    "serverKey": "buildnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
     "unpack": true
 }

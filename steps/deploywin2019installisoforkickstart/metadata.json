@@ -1,11 +1,11 @@
 {
     "archiveKey": "win2019evaluationiso", 
-    "deployPath": "{ksVmwareAttuneBaseDir}/build-{kickstartServer.fqn}", 
+    "deployPath": "{buildBaseDir}/build-{isoNode.fqn}", 
     "enabled": true, 
     "key": "deploywin2019installisoforkickstart", 
     "name": "Deploy Win2019 Install ISO for Kickstart", 
-    "osCredKey": "attunenodecredlinux", 
-    "serverKey": "attunenodelinux", 
+    "osCredKey": "buildnodeuser", 
+    "serverKey": "buildnode", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
     "unpack": true
 }

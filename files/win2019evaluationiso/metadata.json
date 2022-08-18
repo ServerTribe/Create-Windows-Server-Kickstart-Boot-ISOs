@@ -4,7 +4,7 @@
     "key": "win2019evaluationiso", 
     "md5": "f4cafc597597809f22b3182a33a963ee", 
     "name": "Win2019 Evaluation ISO", 
-    "remoteUri": null, 
+    "remoteUri": "https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019", 
     "size": 5296714094, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }

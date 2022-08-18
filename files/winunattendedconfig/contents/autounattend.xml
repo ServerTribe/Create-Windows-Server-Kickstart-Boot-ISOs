@@ -209,7 +209,7 @@ dns = ','.join([ "'%s'" % i for i in (subnet.dns1, subnet.dns2) if i])
                 </SynchronousCommand>
                 
             </FirstLogonCommands>
-            <TimeZone>New Zealand Standard Time</TimeZone>
+            <TimeZone>${timezone}</TimeZone>
         </component>
     </settings>
 </unattend>

@@ -19,14 +19,6 @@
         {
             "order": 60, 
             "stepKey": "deployunattendedconfigforwindowskickstart"
-        }, 
-        {
-            "order": 80, 
-            "stepKey": "deployvmwaredriversforwindowskickstart"
-        }, 
-        {
-            "order": 140, 
-            "stepKey": "createdriversisoforwindowskickstart"
         }
     ], 
     "name": "Create Win2019 ISO for Kickstart", 

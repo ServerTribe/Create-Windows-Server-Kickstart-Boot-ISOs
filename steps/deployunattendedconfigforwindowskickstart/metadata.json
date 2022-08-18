@@ -1,6 +1,6 @@
 {
     "archiveKey": "winunattendedconfig", 
-    "deployPath": "{ksVmwareAttuneBaseDir}/build-{kickstartServer.fqn}/Drivers", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{kickstartServer.fqn}/", 
     "enabled": true, 
     "key": "deployunattendedconfigforwindowskickstart", 
     "makoFileNames": [

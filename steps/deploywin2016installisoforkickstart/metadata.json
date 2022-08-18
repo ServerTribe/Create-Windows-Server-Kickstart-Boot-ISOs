@@ -1,9 +1,9 @@
 {
-    "archiveKey": "winvmwaredrivers", 
+    "archiveKey": "win2016evaluationiso", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{kickstartServer.fqn}", 
     "enabled": true, 
-    "key": "deployvmwaredriversforwindowskickstart", 
-    "name": "Deploy VMWare Drivers for Windows Kickstart", 
+    "key": "deploywin2016installisoforkickstart", 
+    "name": "Deploy Win2016 Install ISO for Kickstart", 
     "osCredKey": "attunenodecredlinux", 
     "serverKey": "attunenodelinux", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 

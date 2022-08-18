@@ -10,7 +10,7 @@
         }, 
         {
             "order": 20, 
-            "stepKey": "kswin2016deployinstalliso"
+            "stepKey": "deploywin2016installisoforkickstart"
         }, 
         {
             "order": 40, 
@@ -19,14 +19,6 @@
         {
             "order": 60, 
             "stepKey": "deployunattendedconfigforwindowskickstart"
-        }, 
-        {
-            "order": 80, 
-            "stepKey": "deployvmwaredriversforwindowskickstart"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "createdriversisoforwindowskickstart"
         }
     ], 
     "name": "Create Win2016 ISO for Kickstart", 

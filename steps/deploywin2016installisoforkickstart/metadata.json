@@ -1,6 +1,6 @@
 {
     "archiveKey": "win2016evaluationiso", 
-    "deployPath": "{ksVmwareAttuneBaseDir}/build-{kickstartServer.fqn}", 
+    "deployPath": "{buildBaseDir}/build-{isoNode.fqn}", 
     "enabled": true, 
     "key": "deploywin2016installisoforkickstart", 
     "name": "Deploy Win2016 Install ISO for Kickstart", 

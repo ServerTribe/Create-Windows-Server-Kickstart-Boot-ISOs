@@ -9,7 +9,7 @@
     "makoParameters": [
         {
             "name": "adminUser", 
-            "parameterKey": "windowsadministrator", 
+            "parameterKey": "windowsuseradministrator", 
             "parameterType": "c.s.s.b.phv.WinOsCred"
         }, 
         {
